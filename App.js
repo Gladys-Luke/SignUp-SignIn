@@ -113,10 +113,12 @@ const styles = StyleSheet.create({
   textContainer: {
     flexDirection: "row",
     alignItems: "center",
+    marginBottom: 50
   },
   text: {
     color: "#3F414E",
-    fontSize: 24,
+    fontSize: 16,
+    letterSpacing: 3.84
   },
   logo: {
     width: 30,
@@ -124,8 +126,8 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
   },
   tinyLogo: {
-    width: 50,
-    height: 50,
+    width: 300,
+    height: 200,
     marginTop: 10,
   },
   button: {
